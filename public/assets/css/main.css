@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.show_Product:hover {
+    background-color: RoyalBlue;
+}
+
+#app {border-top: 0px;
+    border-bottom: 20px;
+    border-color: #CF0003;
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px; }
+/*/ home styles /*/
+.cat-div {margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid rgba(207,0,3);
+}
+.dash-cat-title h2{font-family: 'DM Serif Text', serif; font-size: 40px; }
+.mast_img {width: 100%;  position: relative;}
+.mast_img img {width: 100%; }
+.mast_img h1 {position: absolute; bottom: 20px; left:20px;color: #ffffff;
+    font-family: 'DM Serif Text', serif;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .84), 0 0 30px rgba(0, 0, 0, .075);}
+
+
+
+/*/ end home styles /*/
+/*/ login /*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+	font-size: 14px;
+}
+.dropdown-item {
+   font-size: 14px;
+}
+.login-pad {padding-top:40px; padding-bottom:40px; font-family: 'Open Sans', sans-serif;}
+.login-pad h2 {font-family: 'DM Serif Text', serif; font-size: 30px;}
+
+/*product style /*/
+.cart-page {padding-top:40px;}
+.cart-page h3 {font-size: 16px; font-family: 'DM Serif Text', serif;}
+.cart-page h2 {font-size: 40px; font-family: 'DM Serif Text', serif;}
+.cart-page h3 a{color:#000000;}
+.product_search {padding-bottom:10px;}
+.product_container {padding-top:40px;}
+.product_des { margin-bottom:20px;}
+.product_price {color: #ffffff;  text-shadow: 0 2px 4px rgba(0, 0, 0, .84), 0 0 30px rgba(0, 0, 0, .075); font-size: 25px; font-family: 'DM Serif Text', serif;}
+.product_img {position: relative; }
+.product_content {position: absolute; bottom:30px; left:30px;  width: 90%; }
+.product_content h2 {color: #ffffff; font-family: 'DM Serif Text', serif; line-height: 42px;
+    font-size: 40px;  text-shadow: 0 2px 4px rgba(0, 0, 0, .84), 0 0 30px rgba(0, 0, 0, .075); }
+.product_check {}
+.product_details {position: absolute; top: 5px; right:0px;}
+.product_btn_details {background-color: #CF0003;
+    border-color: #CF0003; 
+    font-family: 'DM Serif Text', serif;
+    font-size: 20px;
+color:#ffffff!important;}
+.product_search .card {padding-left: 15px; padding-right:15px;}
+.add-to-cart {}
+.cat-pro { font-family: 'DM Serif Text', serif;}
+
+
+.cart-page {}
+.cart-page h1 {font-size: 40px; font-family: 'DM Serif Text', serif;}
+
+.footer {
+	font-family: 'Open Sans', sans-serif;
+    background-color: #2F2F2F;
+    padding: 50px;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+    -webkit-font-smoothing: antialiased;
+}
+.footer #tt_icon li {
+    display: inline;
+    color: #ffffff;
+    font-size: 35px;
+    padding-right: 10px;
+}
+.footer #tt_icon li a {
+    color: #ffffff;
+}
+.navbar-brand img{width: 200px}
+.nav-link {font-size: 20px;}
+.in-cart-title { font-family: 'DM Serif Text', serif;}
+
+.tt-btn {
+    background-color: #CF0003!important;
+    border-color: #CF0003;
+    font-family: 'DM Serif Text', serif;
+    font-size: 20px;
+	color:#ffffff;
+}
+.product_container h3{font-size: 30px;  font-family: 'DM Serif Text', serif;}
